@@ -54,7 +54,3 @@ Kvalitetsbar:
 - Respektera denylist och preferenser.
 - Vid förslag: 1 huvudförslag + upp till 2 alternativ + hur man ger feedback.
 ```
-
-## Terraform (valfritt)
-
-Om du hellre skapar via API, se `automation/terraform/`. Kräver `CURSOR_API_KEY`.
