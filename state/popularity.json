@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "updated": "2026-10-05",
+  "recipes": {
+    "recipes/vardagsmat/kottfarssas-spaghetti.md": {
+      "title": "Köttfärssås med spaghetti",
+      "cooked": 8,
+      "liked": 6
+    },
+    "recipes/vardagsmat/ugnskyckling-med-rotfrukter.md": {
+      "title": "Ugnskyckling med rotfrukter",
+      "cooked": 5,
+      "liked": 5
+    },
+    "recipes/snabbt/aggnudlar-med-gronsaker.md": {
+      "title": "Äggnudlar med grönsaker",
+      "cooked": 4,
+      "liked": 3
+    },
+    "recipes/vardagsmat/linssoppa.md": {
+      "title": "Linssoppa",
+      "cooked": 3,
+      "liked": 2
+    },
+    "recipes/snabbt/tonfiskpasta.md": {
+      "title": "Tonfiskpasta",
+      "cooked": 3,
+      "liked": 2
+    },
+    "recipes/bakverk/chokladbollar.md": {
+      "title": "Chokladbollar",
+      "cooked": 2,
+      "liked": 4
+    }
+  }
+}

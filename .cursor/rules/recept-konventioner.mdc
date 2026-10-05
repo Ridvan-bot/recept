@@ -1,0 +1,26 @@
+---
+description: Konventioner för receptfiler och state i receptrepot
+globs:
+  - recipes/**/*.md
+  - state/**
+  - templates/**
+alwaysApply: false
+---
+
+# Receptkonventioner
+
+## Receptfiler
+- Ett recept per fil under `recipes/<kategori>/`
+- Filnamn: kebab-case, svenska utan åäö i path (å→a, ä→a, ö→o)
+- Använd mallen i `templates/recept.md`
+- Obligatoriska fält: titel, tags, effort, servings, summary, ingredients, steps
+- Tags ska vara lowercase, svenska där det går (t.ex. `snabb`, `vardag`, `kyckling`)
+
+## State
+- `state/feedback-log.jsonl` är append-only (en JSON-rad per händelse)
+- `state/preferences.md` är en sammanfattad smakprofil som får skrivas om
+- `state/popularity.json` räknar `cooked` och `liked` per receptpath
+- `state/denylist.md` innehåller hårda nej (allergier, "aldrig igen")
+
+## Språk
+- All användarriktad text på svenska
