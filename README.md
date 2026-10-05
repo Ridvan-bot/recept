@@ -23,8 +23,10 @@ AGENTS.md         # Instruktioner för agenten
 
 1. Lägg till/justera recept under `recipes/`
 2. Fyll i allergier i `state/denylist.md` och gärna smak i `state/preferences.md`
-3. Skapa Cursor Automation enligt `automation/PROMPT.md`
-4. Koppla repot + Slack-kanal, aktivera PR-skapande
+3. Skapa den **manuella** Cursor-automationen enligt `automation/PROMPT.md`
+   - Trigger: Webhook (du startar själv)
+   - Repo: detta repo
+   - Vid ändringar: öppnar PR mot GitHub
 
 ## Lägga till recept
 

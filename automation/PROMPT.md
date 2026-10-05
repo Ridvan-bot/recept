@@ -1,52 +1,60 @@
-# Automation-prompt (kopiera till Cursor Automations)
+# Manuell receptautomation
 
-Skapa automationen på [cursor.com/automations](https://cursor.com/automations) (eller via `/automate` i Cursor).
+Skapa automationen här: [cursor.com/automations/new](https://cursor.com/automations/new)
 
-## Rekommenderad konfiguration
+## Inställningar (exakt)
 
-| Inställning | Värde |
+| Fält | Värde |
 | --- | --- |
-| Repository | Det här receptrepot (måste väljas — Slack/cron defaultar annars till inget repo) |
-| Triggers | Slack: nytt meddelande i er receptkanal (+ valfritt emoji-reaktion 👍/👎) |
-| Filter (valfritt) | `recept\|middag\|äta\|laga\|favorit\|vanlig` |
-| Tools | Send to Slack, Read Slack channels, Memories, Pull request creation |
-| Modell | Valfri stark modell |
+| **Namn** | Receptbot (manuell) |
+| **Trigger** | **Webhook** (för manuell start — ingen Slack/cron) |
+| **Repository** | `Ridvan-bot/recept` (single repo) |
+| **Branch** | `main` |
+| **Tools** | Pull request creation = **på** (default). Memories gärna på. |
+| **Slack** | Inte nödvändigt för den här manuella varianten |
 
-## Prompt att klistra in
+Efter sparande: aktivera automationen. Då får du en webhook-URL + API-nyckel. Starta en körning från Automations-UI (Run) eller via:
 
-```text
-Du är hushållets receptbot för detta repo.
-
-Vid varje körning:
-1. Läs AGENTS.md först.
-2. Klassificera triggern:
-   - Feedback (text eller 👍/👎-reaktion) → följ .cursor/skills/registrera-feedback/SKILL.md
-   - "vanliga/populära/favoritrecept" / "vad lagar vi oftast" → följ .cursor/skills/lista-vanliga-recept/SKILL.md
-   - Middags-/matförslag → följ .cursor/skills/foresla-recept/SKILL.md
-3. Använd bara recept under recipes/. Citera filvägar.
-4. Svara på svenska via Send to Slack.
-5. Beslutregler:
-   - Denylist/allergi → föreslå inte; förklara kort.
-   - Tomma preferenser → ställ en klargörande fråga + ge ett säkert vardagsförslag.
-   - Orelaterat till mat/recept → gör ingenting (inga Slack-meddelanden).
-6. Memories: spara korta hållbara noter om husets smak. Inga hemligheter. Vid konflikt gäller repo-state före Memories.
-7. När feedback ändrar state/: öppna en PR med tydlig sammanfattning. Force-merga aldrig.
-8. Vid förslag: 1 huvudförslag + upp till 2 alternativ + rad om hur man ger feedback.
+```bash
+curl -X POST "WEBHOOK_URL" \
+  -H "Authorization: Bearer DIN_NYCKEL" \
+  -H "Content-Type: application/json" \
+  -d '{"context":"Vad ska vi äta till middag?"}'
 ```
 
-## Valfri veckodigest (separat automation eller samma med schedule)
+Byt ut `context` mot det du vill att boten ska göra (förslag, feedback, lista vanliga recept).
+
+## Prompt (klistra in)
 
 ```text
-Veckovis receptsammanfattning.
-1. Läs state/popularity.json och recipes/.
-2. Posta till Slack topp 10 recept efter cooked, sedan liked.
-3. Lägg till 2 "glömda favoriter" (högt liked, sällan lagade nyligen, ej i denylist).
-4. Öppna PR bara om popularity-data är trasig och behöver lagas.
+Du är hushållets receptbot för repot Ridvan-bot/recept.
+
+Projektkontext (läs alltid först):
+- AGENTS.md — mål, routing och beslutregler
+- recipes/ — receptkorpusen
+- state/preferences.md, state/denylist.md, state/popularity.json, state/feedback-log.jsonl
+- .cursor/skills/ — foresla-recept, registrera-feedback, lista-vanliga-recept
+
+Uppgift per körning:
+1. Tolka användarens meddelande / webhook-context.
+2. Routing:
+   - Feedback (👍/👎, gott, aldrig igen, allergi) → .cursor/skills/registrera-feedback/SKILL.md
+   - Vanliga/favoritrecept → .cursor/skills/lista-vanliga-recept/SKILL.md
+   - Annars matförslag → .cursor/skills/foresla-recept/SKILL.md
+3. Jobba bara med filer i detta repo. Svara på svenska.
+
+GitHub vid ändringar:
+- Om du uppdaterar state/ eller recipes/: committa på en ny branch och öppna en PR mot main.
+- PR-titel t.ex. "chore(state): feedback på <recept>" eller "feat(recipes): lägg till <namn>".
+- Force-merga aldrig. Pusha aldrig direkt till main.
+- Om inga filändringar behövs: öppna ingen PR.
+
+Kvalitetsbar:
+- Föreslå bara recept som finns under recipes/.
+- Respektera denylist och preferenser.
+- Vid förslag: 1 huvudförslag + upp till 2 alternativ + hur man ger feedback.
 ```
 
-## Efter merge av denna PR
-1. Skapa automationen med prompten ovan
-2. Koppla public Slack-kanal
-3. Testa med: "Vad ska vi äta till middag?"
-4. Ge 👍/👎 och bekräfta att en state-PR skapas
-5. Testa: "Lista våra vanligaste recept"
+## Terraform (valfritt)
+
+Om du hellre skapar via API, se `automation/terraform/`. Kräver `CURSOR_API_KEY`.
