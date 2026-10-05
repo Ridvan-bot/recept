@@ -2,10 +2,70 @@
   "version": 1,
   "updated": "2026-10-05",
   "recipes": {
+    "recipes/vardagsmat/kottbullar-och-makaroner.md": {
+      "title": "Köttbullar och makaroner",
+      "cooked": 12,
+      "liked": 10
+    },
+    "recipes/vardagsmat/tacos.md": {
+      "title": "Tacos",
+      "cooked": 11,
+      "liked": 10
+    },
     "recipes/vardagsmat/kottfarssas-spaghetti.md": {
-      "title": "Köttfärssås med spaghetti",
+      "title": "Spaghetti och köttfärssås",
+      "cooked": 10,
+      "liked": 9
+    },
+    "recipes/vardagsmat/korvstroganoff.md": {
+      "title": "Korvstroganoff",
+      "cooked": 10,
+      "liked": 9
+    },
+    "recipes/vardagsmat/hamburgare.md": {
+      "title": "Hamburgare med pommes",
+      "cooked": 9,
+      "liked": 8
+    },
+    "recipes/vardagsmat/hemmagjord-pizza.md": {
+      "title": "Hemmagjord pizza",
       "cooked": 8,
+      "liked": 8
+    },
+    "recipes/vardagsmat/kycklinggryta.md": {
+      "title": "Kycklinggryta",
+      "cooked": 8,
+      "liked": 8
+    },
+    "recipes/snabbt/pasta-pesto-kyckling.md": {
+      "title": "Pasta pesto med kyckling",
+      "cooked": 8,
+      "liked": 7
+    },
+    "recipes/snabbt/pasta-ost-och-bacon.md": {
+      "title": "Pasta med ostsås och bacon",
+      "cooked": 7,
+      "liked": 7
+    },
+    "recipes/vardagsmat/lax-med-potatis-och-hollandaise.md": {
+      "title": "Lax med potatis och hollandaisesås",
+      "cooked": 7,
+      "liked": 7
+    },
+    "recipes/vardagsmat/flaskytterfile.md": {
+      "title": "Fläskytterfilé med potatis och bearnaisesås",
+      "cooked": 6,
       "liked": 6
+    },
+    "recipes/vardagsmat/spodbakad-torsk.md": {
+      "title": "Spödbakad torsk",
+      "cooked": 6,
+      "liked": 5
+    },
+    "recipes/vardagsmat/fiskpinnar.md": {
+      "title": "Fiskpinnar med potatis och remouladsås",
+      "cooked": 6,
+      "liked": 5
     },
     "recipes/vardagsmat/ugnskyckling-med-rotfrukter.md": {
       "title": "Ugnskyckling med rotfrukter",
