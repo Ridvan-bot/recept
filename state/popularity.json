@@ -32,6 +32,16 @@
       "cooked": 8,
       "liked": 8
     },
+    "recipes/snabbt/pytt-i-panna.md": {
+      "title": "Pytt i panna (oxpytt)",
+      "cooked": 7,
+      "liked": 6
+    },
+    "recipes/snabbt/korv-med-brod.md": {
+      "title": "Korv med bröd",
+      "cooked": 6,
+      "liked": 5
+    },
     "recipes/vardagsmat/kycklinggryta.md": {
       "title": "Kycklinggryta",
       "cooked": 8,
