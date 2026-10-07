@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "updated": "2026-10-05",
+  "updated": "2026-10-07",
   "recipes": {
+    "recipes/vardagsmat/pizzabullar.md": {
+      "title": "Pizzabullar",
+      "cooked": 6,
+      "liked": 6
+    },
+    "recipes/vardagsmat/blodkorv-bacon-potatisbullar.md": {
+      "title": "Blodkorv med bacon och potatisbullar",
+      "cooked": 1,
+      "liked": 0
+    },
     "recipes/vardagsmat/kottbullar-och-makaroner.md": {
       "title": "Köttbullar och makaroner",
       "cooked": 12,

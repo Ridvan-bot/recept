@@ -29,3 +29,4 @@ summary: Hemmagjord pizza med tomatsås, ost, salami och riven kalkon.
 ## Tips
 - Ringla lite olivolja över innan ugnen för mer smak.
 - Byt gärna till skinka, paprika eller champinjoner efter humör.
+- Vill ni ha rullar i stället: se `recipes/vardagsmat/pizzabullar.md`.
