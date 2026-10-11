@@ -20,7 +20,6 @@ Smakprofil för hushållet. Uppdateras när vi ger feedback på receptförslag.
 - Lagar oftast kycklingrätter på 1 kg (dubbel sats, matlådor)
 
 ## Senaste lärdomar
-- 2026-10-11: Lagade pasta Alfredo med kyckling; receptet dubblat till 1 kg kyckling
-- 2026-10-11: 👍 på pasta Alfredo med kyckling (Arla)
+- 2026-10-11: Lagade och gillade pasta Alfredo med kyckling; dubbel sats (1 kg kyckling)
 - 2026-10-06: Åt blodkorv med bacon, potatisbullar och lingon
 - Brukar göra pizzabullar (samma fyllning som pizza, rullad och skuren)
