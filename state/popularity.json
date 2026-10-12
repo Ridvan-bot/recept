@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-07",
+  "updated": "2026-10-12",
   "recipes": {
     "recipes/vardagsmat/pizzabullar.md": {
       "title": "Pizzabullar",
@@ -121,6 +121,21 @@
       "title": "Chokladbollar",
       "cooked": 2,
       "liked": 4
+    },
+    "recipes/vardagsmat/flygande-jakob.md": {
+      "title": "Flygande Jakob",
+      "cooked": 0,
+      "liked": 0
+    },
+    "recipes/vardagsmat/lasagne-pronto.md": {
+      "title": "Lasagne pronto",
+      "cooked": 0,
+      "liked": 0
+    },
+    "recipes/vardagsmat/kottfarslimpa.md": {
+      "title": "Köttfärslimpa",
+      "cooked": 0,
+      "liked": 0
     }
   }
 }

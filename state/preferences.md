@@ -18,5 +18,6 @@ Smakprofil för hushållet. Uppdateras när vi ger feedback på receptförslag.
 - Ofta klassiska tillbehör: potatis, ris, lingon, remoulad/hollandaise/bearnaise
 
 ## Senaste lärdomar
+- 2026-10-12: Planerar lax med hollandaise och korvstroganoff; vill ha helt nya receptförslag
 - 2026-10-06: Åt blodkorv med bacon, potatisbullar och lingon
 - Brukar göra pizzabullar (samma fyllning som pizza, rullad och skuren)
