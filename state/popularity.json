@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-07",
+  "updated": "2026-10-17",
   "recipes": {
     "recipes/vardagsmat/pizzabullar.md": {
       "title": "Pizzabullar",
@@ -26,6 +26,26 @@
       "title": "Spaghetti och köttfärssås",
       "cooked": 10,
       "liked": 9
+    },
+    "recipes/vardagsmat/pasta-alfredo-med-kyckling.md": {
+      "title": "Pasta Alfredo med kyckling",
+      "cooked": 1,
+      "liked": 1
+    },
+    "recipes/vardagsmat/kottfarslimpa.md": {
+      "title": "Köttfärslimpa",
+      "cooked": 0,
+      "liked": 1
+    },
+    "recipes/vardagsmat/flygande-jakob.md": {
+      "title": "Flygande Jakob",
+      "cooked": 0,
+      "liked": 0
+    },
+    "recipes/vardagsmat/lasagne-pronto.md": {
+      "title": "Lasagne pronto",
+      "cooked": 0,
+      "liked": 0
     },
     "recipes/vardagsmat/korvstroganoff.md": {
       "title": "Korvstroganoff",
