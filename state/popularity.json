@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-17",
+  "updated": "2026-10-26",
   "recipes": {
     "recipes/vardagsmat/pizzabullar.md": {
       "title": "Pizzabullar",
@@ -96,6 +96,11 @@
       "title": "Pasta med ostsås och bacon",
       "cooked": 7,
       "liked": 7
+    },
+    "recipes/vardagsmat/tacogratang.md": {
+      "title": "Tacogratäng",
+      "cooked": 0,
+      "liked": 0
     },
     "recipes/vardagsmat/lax-med-potatis-och-hollandaise.md": {
       "title": "Lax med potatis och hollandaisesås",
