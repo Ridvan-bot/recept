@@ -2,3 +2,10 @@
 {"ts":"2026-10-02T17:30:00Z","recipe":"recipes/vardagsmat/ugnskyckling-med-rotfrukter.md","signal":"thumbs_up","note":"enkel vardagsfavorit","source":"seed"}
 {"ts":"2026-10-03T16:00:00Z","recipe":"recipes/bakverk/chokladbollar.md","signal":"thumbs_up","note":"barnen älskar","source":"seed"}
 {"ts":"2026-10-06T18:00:00Z","recipe":"recipes/vardagsmat/blodkorv-bacon-potatisbullar.md","signal":"note","note":"åt igår: blodkorv, bacon, potatisbullar med lingon","source":"agent"}
+{"ts":"2026-10-11T17:56:00Z","recipe":"recipes/vardagsmat/pasta-alfredo-med-kyckling.md","signal":"thumbs_up","note":"gillade Arlas pasta Alfredo med kyckling","source":"slack"}
+{"ts":"2026-10-11T17:58:00Z","recipe":"recipes/vardagsmat/pasta-alfredo-med-kyckling.md","signal":"note","note":"lagade idag; dubbla receptet, oftast 1 kg kyckling","source":"slack"}
+{"ts":"2026-10-12T17:55:00Z","recipe":"recipes/vardagsmat/lax-med-potatis-och-hollandaise.md","signal":"note","note":"ska äta snart — föreslå inte just nu","source":"slack"}
+{"ts":"2026-10-12T17:55:00Z","recipe":"recipes/vardagsmat/korvstroganoff.md","signal":"note","note":"ska äta snart — föreslå inte just nu","source":"slack"}
+{"ts":"2026-10-12T17:55:00Z","recipe":null,"signal":"note","note":"vill ha helt nya receptförslag utöver befintlig korpus","source":"slack"}
+{"ts":"2026-10-12T17:59:00Z","recipe":"recipes/vardagsmat/kottfarslimpa.md","signal":"thumbs_up","note":"vill ha köttfärslimpa","source":"slack"}
+{"ts":"2026-10-12T18:01:00Z","recipe":"recipes/vardagsmat/kottfarslimpa.md","signal":"note","note":"dubbla receptet till 1 kg färs","source":"slack"}
