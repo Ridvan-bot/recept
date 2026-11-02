@@ -9,3 +9,4 @@
 {"ts":"2026-10-12T17:55:00Z","recipe":null,"signal":"note","note":"vill ha helt nya receptförslag utöver befintlig korpus","source":"slack"}
 {"ts":"2026-10-12T17:59:00Z","recipe":"recipes/vardagsmat/kottfarslimpa.md","signal":"thumbs_up","note":"vill ha köttfärslimpa","source":"slack"}
 {"ts":"2026-10-12T18:01:00Z","recipe":"recipes/vardagsmat/kottfarslimpa.md","signal":"note","note":"dubbla receptet till 1 kg färs","source":"slack"}
+{"ts":"2026-11-02T20:05:00+01:00","recipe":"recipes/vardagsmat/tacogratang.md","signal":"thumbs_up","note":"gillade tacogratäng","source":"agent"}
