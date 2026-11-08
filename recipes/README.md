@@ -3,8 +3,7 @@
 Alla recept ligger under `recipes/<kategori>/` som Markdown.
 
 ## Kategorier
-- `vardagsmat/` — middagar för vanliga dagar
-- `snabbt/` — under ca 25 minuter
+- `vardagsmat/` — middagar för vanliga dagar (även snabba rätter)
 - `bakverk/` — fika och bak
 
 ## Lägga till nytt recept
