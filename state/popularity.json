@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-26",
+  "updated": "2026-11-08",
   "recipes": {
     "recipes/vardagsmat/pizzabullar.md": {
       "title": "Pizzabullar",
@@ -62,12 +62,12 @@
       "cooked": 8,
       "liked": 8
     },
-    "recipes/snabbt/pytt-i-panna.md": {
+    "recipes/vardagsmat/pytt-i-panna.md": {
       "title": "Pytt i panna (oxpytt)",
       "cooked": 7,
       "liked": 6
     },
-    "recipes/snabbt/korv-med-brod.md": {
+    "recipes/vardagsmat/korv-med-brod.md": {
       "title": "Korv med bröd",
       "cooked": 6,
       "liked": 5
@@ -87,12 +87,12 @@
       "cooked": 8,
       "liked": 8
     },
-    "recipes/snabbt/pasta-pesto-kyckling.md": {
+    "recipes/vardagsmat/pasta-pesto-kyckling.md": {
       "title": "Pasta pesto med kyckling",
       "cooked": 8,
       "liked": 7
     },
-    "recipes/snabbt/pasta-ost-och-bacon.md": {
+    "recipes/vardagsmat/pasta-ost-och-bacon.md": {
       "title": "Pasta med ostsås och bacon",
       "cooked": 7,
       "liked": 7
@@ -127,17 +127,22 @@
       "cooked": 5,
       "liked": 5
     },
-    "recipes/snabbt/aggnudlar-med-gronsaker.md": {
+    "recipes/vardagsmat/aggnudlar-med-gronsaker.md": {
       "title": "Äggnudlar med grönsaker",
       "cooked": 4,
       "liked": 3
+    },
+    "recipes/vardagsmat/kotlett-med-tzatziki.md": {
+      "title": "Kotlett med tzatziki",
+      "cooked": 0,
+      "liked": 0
     },
     "recipes/vardagsmat/linssoppa.md": {
       "title": "Linssoppa",
       "cooked": 3,
       "liked": 2
     },
-    "recipes/snabbt/tonfiskpasta.md": {
+    "recipes/vardagsmat/tonfiskpasta.md": {
       "title": "Tonfiskpasta",
       "cooked": 3,
       "liked": 2
