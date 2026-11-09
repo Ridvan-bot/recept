@@ -5,7 +5,7 @@ Detta repo innehåller recept på mat, förrätter, efterrätter med mera — pl
 ## Struktur
 
 ```text
-recipes/          # Receptkorpus (vardagsmat, snabbt, bakverk)
+recipes/          # Receptkorpus (vardagsmat, bakverk)
 state/            # Preferenser, feedback, popularity, denylist
 templates/        # Mall för nya recept
 .cursor/skills/   # Skills: föreslå, registrera feedback, lista vanliga
