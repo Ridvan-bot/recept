@@ -39,5 +39,5 @@ Skriv om `state/preferences.md` så den förblir en läsbar smakprofil:
 - Senaste lärdomar (max 5–8 punkter)
 
 ## Repo
-När automation körs: committa state-ändringar och öppna PR med titel i stil med `chore(state): feedback på <recept>`.
-Force-merga aldrig.
+När automation körs: committa state-ändringar direkt till `main`.
+Force-pusha aldrig.

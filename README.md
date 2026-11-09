@@ -26,7 +26,7 @@ AGENTS.md         # Instruktioner för agenten
 3. Skapa den **manuella** Cursor-automationen enligt `automation/PROMPT.md`
    - Trigger: Webhook (du startar själv)
    - Repo: detta repo
-   - Vid ändringar: öppnar PR mot GitHub
+   - Vid ändringar: committa och pusha till `main`
 
 ## Lägga till recept
 

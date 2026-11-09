@@ -10,7 +10,7 @@ Skapa automationen här: [cursor.com/automations/new](https://cursor.com/automat
 | **Trigger** | **Webhook** (för manuell start — ingen Slack/cron) |
 | **Repository** | `Ridvan-bot/recept` (single repo) |
 | **Branch** | `main` |
-| **Tools** | Pull request creation = **på** (default). Memories gärna på. |
+| **Tools** | Pull request creation = **av**. Memories gärna på. |
 | **Slack** | Inte nödvändigt för den här manuella varianten |
 
 Efter sparande: aktivera automationen. Då får du en webhook-URL + API-nyckel. Starta en körning från Automations-UI (Run) eller via:
@@ -44,10 +44,10 @@ Uppgift per körning:
 3. Jobba bara med filer i detta repo. Svara på svenska.
 
 GitHub vid ändringar:
-- Om du uppdaterar state/ eller recipes/: committa på en ny branch och öppna en PR mot main.
-- PR-titel t.ex. "chore(state): feedback på <recept>" eller "feat(recipes): lägg till <namn>".
-- Force-merga aldrig. Pusha aldrig direkt till main.
-- Om inga filändringar behövs: öppna ingen PR.
+- Jobba bara på `main`. Skapa inga andra brancher och öppna inga PR:er.
+- Om du uppdaterar state/ eller recipes/: committa och pusha direkt till `main`.
+- Force-pusha aldrig.
+- Om inga filändringar behövs: committa inget.
 
 Kvalitetsbar:
 - Föreslå bara recept som finns under recipes/.
