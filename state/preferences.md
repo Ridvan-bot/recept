@@ -7,6 +7,7 @@ Smakprofil för hushållet. Uppdateras när vi ger feedback på receptförslag.
 - Frysta genvägar när det går snabbt (pytt, potatisbullar, fiskpinnar)
 - Pasta Alfredo med kyckling (Arla: syrad grädde, timjan, ärter)
 - Köttfärslimpa (vill laga)
+- Tacogratäng (ugn, blandfärs, nachos och ost)
 
 ## Ogillar
 - _(fylls i allt eftersom)_
@@ -21,6 +22,7 @@ Smakprofil för hushållet. Uppdateras när vi ger feedback på receptförslag.
 - Lagar oftast kycklingrätter på 1 kg (dubbel sats, matlådor)
 
 ## Senaste lärdomar
+- 2026-11-02: Gillade tacogratäng
 - 2026-10-12: Vill ha köttfärslimpa — dubbel sats (1 kg färs)
 - 2026-10-12: Planerar lax med hollandaise och korvstroganoff; vill ha helt nya receptförslag
 - 2026-10-11: Lagade och gillade pasta Alfredo med kyckling; dubbel sats (1 kg kyckling)
