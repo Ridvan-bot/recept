@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-09",
+  "updated": "2026-11-15",
   "recipes": {
     "recipes/vardagsmat/pizzabullar.md": {
       "title": "Pizzabullar",
@@ -121,6 +121,11 @@
       "title": "Fiskpinnar med potatis och remouladsås",
       "cooked": 6,
       "liked": 5
+    },
+    "recipes/vardagsmat/fiskgratang.md": {
+      "title": "Fiskgratäng (Garant)",
+      "cooked": 0,
+      "liked": 0
     },
     "recipes/vardagsmat/ugnskyckling-med-rotfrukter.md": {
       "title": "Ugnskyckling med rotfrukter",
