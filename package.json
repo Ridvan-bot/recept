@@ -7,7 +7,7 @@
     "start": "next start --hostname 127.0.0.1 --port 3000"
   },
   "engines": {
-    "node": ">=20"
+    "node": "22.x"
   },
   "dependencies": {
     "@types/node": "^26.6.6",
