@@ -9,6 +9,7 @@ Smakprofil för hushållet. Uppdateras när vi ger feedback på receptförslag.
 - Köttfärslimpa (vill laga)
 - Tacogratäng (ugn, blandfärs, nachos och ost)
 - Krämig lövbiffsgryta (ICA: champinjoner, crème fraiche, senap)
+- Fläskytterfilé i krämig sås och tomat (ICA: klyftpotatis, soja, timjan)
 
 ## Ogillar
 - _(fylls i allt eftersom)_
@@ -23,6 +24,7 @@ Smakprofil för hushållet. Uppdateras när vi ger feedback på receptförslag.
 - Lagar oftast kycklingrätter på 1 kg (dubbel sats, matlådor)
 
 ## Senaste lärdomar
+- 2026-11-15: Vill ha fläskytterfilé i krämig sås och tomat från ICA
 - 2026-11-15: Vill ha krämig lövbiffsgryta från ICA
 - 2026-11-15: Vill ha fiskgratäng — helt färdig från Garant
 - 2026-11-02: Gillade tacogratäng
@@ -30,4 +32,3 @@ Smakprofil för hushållet. Uppdateras när vi ger feedback på receptförslag.
 - 2026-10-12: Planerar lax med hollandaise och korvstroganoff; vill ha helt nya receptförslag
 - 2026-10-11: Lagade och gillade pasta Alfredo med kyckling; dubbel sats (1 kg kyckling)
 - 2026-10-06: Åt blodkorv med bacon, potatisbullar och lingon
-- Brukar göra pizzabullar (samma fyllning som pizza, rullad och skuren)
