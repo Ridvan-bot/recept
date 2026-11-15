@@ -8,6 +8,7 @@ Smakprofil för hushållet. Uppdateras när vi ger feedback på receptförslag.
 - Pasta Alfredo med kyckling (Arla: syrad grädde, timjan, ärter)
 - Köttfärslimpa (vill laga)
 - Tacogratäng (ugn, blandfärs, nachos och ost)
+- Krämig lövbiffsgryta (ICA: champinjoner, crème fraiche, senap)
 
 ## Ogillar
 - _(fylls i allt eftersom)_
@@ -22,6 +23,7 @@ Smakprofil för hushållet. Uppdateras när vi ger feedback på receptförslag.
 - Lagar oftast kycklingrätter på 1 kg (dubbel sats, matlådor)
 
 ## Senaste lärdomar
+- 2026-11-15: Vill ha krämig lövbiffsgryta från ICA
 - 2026-11-15: Vill ha fiskgratäng — helt färdig från Garant
 - 2026-11-02: Gillade tacogratäng
 - 2026-10-12: Vill ha köttfärslimpa — dubbel sats (1 kg färs)
