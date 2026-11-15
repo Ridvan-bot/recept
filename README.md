@@ -2,9 +2,14 @@
 
 Detta repo innehåller recept på mat, förrätter, efterrätter med mera — plus en **receptbot** som kan föreslå rätter, lära sig av feedback och lista våra vanligaste recept.
 
+Webben (mobil först) ligger på [recept-six.vercel.app](https://recept-six.vercel.app). Där kan man söka, filtrera, få middagsförslag och laga steg för steg.
+
 ## Struktur
 
 ```text
+app/              # Next.js-frontend (mobil)
+components/       # UI för lista, förslag och receptvy
+lib/              # Läser recipes/ och state/ vid build
 recipes/          # Receptkorpus (vardagsmat, bakverk)
 state/            # Preferenser, feedback, popularity, denylist
 templates/        # Mall för nya recept
@@ -27,6 +32,8 @@ AGENTS.md         # Instruktioner för agenten
    - Trigger: Webhook (du startar själv)
    - Repo: detta repo
    - Vid ändringar: committa och pusha till `main`
+
+Lokalt: `npm install` och `npm run dev`. Push till `main` deployar sajten på Vercel.
 
 ## Lägga till recept
 
