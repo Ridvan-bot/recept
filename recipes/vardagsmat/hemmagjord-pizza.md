@@ -8,8 +8,8 @@ allergener: [gluten, mjölk]
 summary: Hemmagjord pizza med tomatsås, ost, salami och riven kalkon.
 
 ## Ingredienser
-- 1 sats pizzadeg (färdig eller hemgjord, räcker till 2–3 pizzor)
-- 2–3 dl tomatsås (pizzasås eller krossade tomater)
+- 1 sats pizzadeg (färdig, hemgjord eller pizzakit, räcker till 2–3 pizzor)
+- 2–3 dl tomatsås (kan ingå i pizzakit; annars pizzasås eller krossade tomater)
 - 200–300 g riven pizzaost
 - 100 g salami
 - 100 g riven kalkon (eller kalkonskinka i strimlor)
