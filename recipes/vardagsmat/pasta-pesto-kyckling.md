@@ -27,3 +27,5 @@ summary: Snabb pastarätt med kyckling, pesto, vitlök och creme fraiche.
 ## Tips
 - Rödpesto ger mer sötma, grön pesto mer örtsmak.
 - Fungerar även med färdiggrillad kyckling från butiken.
+- Utan kyckling, med bacon: se `recipes/vardagsmat/pasta-pesto-bacon.md`.
+
